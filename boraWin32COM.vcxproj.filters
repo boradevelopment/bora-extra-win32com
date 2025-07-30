@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TAZA">
+      <UniqueIdentifier>{64444b76-41f4-4566-9ec8-bfc889061214}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="IconHandler.h" />
+    <ClInclude Include="..\..\global\cpp\contribs\TAZA\code\ArchiveExport.h">
+      <Filter>TAZA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\global\cpp\contribs\TAZA\code\ArchiveGetFile.h">
+      <Filter>TAZA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\global\cpp\contribs\TAZA\code\ChunkModeEnum.h">
+      <Filter>TAZA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\global\cpp\contribs\TAZA\code\Compress.h">
+      <Filter>TAZA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\global\cpp\contribs\TAZA\code\Decompress.h">
+      <Filter>TAZA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\global\cpp\contribs\TAZA\code\Decrypt.h">
+      <Filter>TAZA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\global\cpp\contribs\TAZA\code\Encrypt.h">
+      <Filter>TAZA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\global\cpp\contribs\TAZA\code\ExportResultErrorEnum.h">
+      <Filter>TAZA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\global\cpp\contribs\TAZA\code\FileResultErrorEnum.h">
+      <Filter>TAZA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\global\cpp\contribs\TAZA\code\GetArchiveErrorEnum.h">
+      <Filter>TAZA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\global\cpp\contribs\TAZA\code\MakeArchiveErrorEnum.h">
+      <Filter>TAZA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\global\cpp\contribs\TAZA\code\MTFP.h">
+      <Filter>TAZA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\global\cpp\contribs\TAZA\code\TAZA.h">
+      <Filter>TAZA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\global\cpp\contribs\TAZA\code\TAZAExtras.h">
+      <Filter>TAZA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\global\cpp\contribs\TAZA\code\TAZAInfo.h">
+      <Filter>TAZA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\global\cpp\contribs\TAZA\code\TAZALogger.h">
+      <Filter>TAZA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\global\cpp\contribs\TAZA\code\Utilities.h">
+      <Filter>TAZA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\global\cpp\contribs\TAZA\code\V2Archive.h">
+      <Filter>TAZA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\global\cpp\contribs\TAZA\code\V2File.h">
+      <Filter>TAZA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\global\cpp\contribs\TAZA\code\V2Header.h">
+      <Filter>TAZA</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="IconHandler.cpp" />
+    <ClCompile Include="..\..\global\cpp\contribs\TAZA\code\ArchiveGetFile.cpp">
+      <Filter>TAZA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\global\cpp\contribs\TAZA\code\Compress.cpp">
+      <Filter>TAZA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\global\cpp\contribs\TAZA\code\Decompress.cpp">
+      <Filter>TAZA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\global\cpp\contribs\TAZA\code\Decrypt.cpp">
+      <Filter>TAZA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\global\cpp\contribs\TAZA\code\Encrypt.cpp">
+      <Filter>TAZA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\global\cpp\contribs\TAZA\code\MTFP.cpp">
+      <Filter>TAZA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\global\cpp\contribs\TAZA\code\TAZALogger.cpp">
+      <Filter>TAZA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\global\cpp\contribs\TAZA\code\Utilities.cpp">
+      <Filter>TAZA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\global\cpp\contribs\TAZA\code\V2Archive.cpp">
+      <Filter>TAZA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\global\cpp\contribs\TAZA\code\V2Header.cpp">
+      <Filter>TAZA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\global\cpp\contribs\TAZA\code\ArchiveExport.cpp">
+      <Filter>TAZA</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GlobalExportFunctions.def" />
+  </ItemGroup>
+</Project>

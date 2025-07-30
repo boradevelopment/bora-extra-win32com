@@ -1,0 +1,2 @@
+# BORA Win32 COM
+This project builds a dll that is registered that allows you to open BORA Applications and see their icons through the imported logos, this project is currently disorganized but it is working and doesn't seem to need any changes.
