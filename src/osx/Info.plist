@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Basic bundle info -->
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleExecutable</key>
+    <string>BORAINTERPRETEROSX.dylib</string> <!-- must match your generator binary -->
+    <key>CFBundleIdentifier</key>
+    <string>com.bora.interpreter</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundlePackageType</key>
+    <string>BNDL</string>
+    <key>CFBundleSignature</key>
+    <string>BAPP</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+
+    <!-- QuickLook generator setup -->
+    <key>QLGeneratorContentTypes</key>
+    <array>
+        <string>com.bora.bapp</string>
+    </array>
+
+    <!-- UTI declaration for .bapp files -->
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+        <dict>
+            <key>UTTypeIdentifier</key>
+            <string>com.bora.bapp</string>
+            <key>UTTypeConformsTo</key>
+            <array>
+                <string>public.data</string>
+            </array>
+            <key>UTTypeDescription</key>
+            <string>BORA Application</string>
+            <key>UTTypeTagSpecification</key>
+            <dict>
+                <key>public.filename-extension</key>
+                <string>bapp</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>

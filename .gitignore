@@ -1,3 +1,6 @@
 .vs
 boraWin32COM
 x64
+debug
+cmake-build-debug
+.idea

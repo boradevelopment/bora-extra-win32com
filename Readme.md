@@ -1,2 +1,2 @@
-# BORA Win32 COM
-This project builds a dll that is registered that allows you to open BORA Applications and see their icons through the imported logos, this project is currently disorganized but it is working and doesn't seem to need any changes.
+# BORA Interpretor
+This project builds a dynamic system library that is registered that allows you to open BORA Applications and see their icons through the imported logos! It needs some work though and bug fixing for both WIN32 and OSX distributions.
